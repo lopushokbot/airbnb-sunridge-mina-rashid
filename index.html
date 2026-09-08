@@ -34,10 +34,14 @@
   .table-wrap { overflow-x:auto; }
   table.market { font-size:13px; }
   table.market th, table.market td { padding:10px 8px; }
+  table.market th { white-space:normal; letter-spacing:0.03em; font-size:11px; }
+  table.market td.num { white-space:normal; }
   table.market td:first-child { white-space:nowrap; }
   table.rates td:first-child { white-space:nowrap; width:1%; }
   table.rates td.num, table.rates th.num { width:1%; }
-  table.rates td:last-child { min-width:260px; }
+  table.rates td:last-child { min-width:200px; }
+  table.rates th { letter-spacing:0.03em; font-size:12px; }
+  table.rates td:first-child { white-space:normal; min-width:96px; }
   .summary-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px 32px; margin-top:16px; }
   .summary-grid div { border-top:1px solid var(--line); padding-top:12px; }
   .summary-grid .label { font-size:13px; color:var(--ink-3); text-transform:uppercase; letter-spacing:0.06em; font-weight:500; margin-bottom:4px; }
